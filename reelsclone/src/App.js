@@ -17,7 +17,7 @@ function App() {
       <Navbar></Navbar>
       <Routes>
          <Route path = '/login' element = {<Login></Login>}></Route>
-         <Route path = '/singup' element = {<SignUp></SignUp>}></Route>
+         <Route path = '/signup' element = {<SignUp></SignUp>}></Route>
          <Route path = '/forgetpassword' element = {<ForgetPassword></ForgetPassword>}></Route>
          <Route path = '/resetpassword' element = {<ResetPassword></ResetPassword>}></Route>
          <Route path = '/feed' element = {<Feed></Feed>}></Route>
